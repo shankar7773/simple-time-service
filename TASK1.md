@@ -7,13 +7,6 @@ A minimalist microservice that returns the current UTC timestamp and the request
 - Runs as a non-root user
 - Dockerized for containerized deployments
 
-## JSON Response Format
-```json
-{
-  "timestamp": "2025-05-15T12:00:00Z",
-  "ip": "192.168.1.100"
-}
-
 Technologies Used
 Python 3
 Flask
@@ -42,4 +35,3 @@ DockerHub (Public Image)
 This image is available on DockerHub:
 
 Link: https://hub.docker.com/r/shankar7773/simple-time-service
-
